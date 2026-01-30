@@ -1,5 +1,4 @@
 import random
-
 while True:
  sd = int (input("nhap so vao 1-10 :"))
  so = random.randint(1, 10)
