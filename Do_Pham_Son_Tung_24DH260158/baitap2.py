@@ -9,4 +9,4 @@ while True:
     elif so_ngau_nhien < so_nhap:
         print("nhỏ quá")
     else:
-        print("đúng rồi")
+        print("Đúng rồi")
