@@ -7,7 +7,7 @@ print("Tôi đã chọn một số từ 1 đến 100. Hãy đoán thử nhé!")
 while True:
     # Người dùng nhập số dự đoán
     doan = int(input("Nhập số dự đoán của bạn: "))
-    
+
     # So sánh và đưa ra gợi ý
     if doan > so_bi_mat:
         print("Lớn quá!")
