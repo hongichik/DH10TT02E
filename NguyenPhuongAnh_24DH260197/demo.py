@@ -7,6 +7,7 @@ print ("Danh sách con vật sau khi thêm:", danh_sac_con_vat)
 index = int (input ("Nhập vị trí index muốn thêm (B-()): ".format(len(danh_sac_con_vat)-1)))
 con_vat_moi = input("Nhập tên con vật mới: ")
 danh_sac_con_vat.insert(index, con_vat_moi)
+
 print ("Danh sách con vật sau khi thêm theo index:", danh_sac_con_vat)
 con_vat_xoa = input( "Nhập tên con vật muỗn xóa: ")
 if con_vat_xoa in danh_sac_con_vat:
