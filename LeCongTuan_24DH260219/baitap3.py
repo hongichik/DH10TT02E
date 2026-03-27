@@ -1,2 +1,2 @@
-kt="example@gmail.com"
-print(kt.endswith("@gmail.com"))
+KT="example@gmail.com"
+print(KT.endswith("@gmail.com"))
