@@ -10,4 +10,3 @@ while True:
         print("nhỏ quá")
     else:
         print("đúng rồi")
-
