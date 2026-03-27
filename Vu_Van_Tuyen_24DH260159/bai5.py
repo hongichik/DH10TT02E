@@ -41,3 +41,4 @@ if 0 <= index_xoa < len(danh_sac_con_vat):
     print("Danh sách sau khi xóa theo index:", danh_sac_con_vat)
 else:
     print("Index không hợp lệ.")
+
