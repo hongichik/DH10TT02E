@@ -1,4 +1,9 @@
-def xinchao():
-    for i in range(100):
-        print("Tùng bị thông lần:", i+1)
-xinchao()
+email = input("Hãy điền email: ")
+
+def checkemail(email):
+    if email.endswith("@gmail.com"):
+        print("email hợp lệ")
+    else:
+        print("email ko hợp lệ")
+
+checkemail(email)
