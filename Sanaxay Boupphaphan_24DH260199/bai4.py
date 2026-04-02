@@ -1,0 +1,28 @@
+hocsinh = {
+    "name": "Phạm Hoài Nam",
+    "age": 20,
+    "class": "CNTT 1A",
+}
+print("Thông tin học sinh:", hocsinh)
+
+ds_hoc_sinh = [
+    {"name": "Phạm Hoài Nam", "age": 20, "class": "CNTT 1A"},
+    {"name": "Nguyễn Văn A", "age": 19, "class": "CNTT 1B"},
+    {"name": "Trần Thị B", "age": 21, "class": "CNTT 1C"},
+]
+
+print("Danh sách học sinh:")
+for hoc_sinh in ds_hoc_sinh:
+    print(hoc_sinh)
+
+# Sửa thông tin học sinh thứ 1
+ds_hoc_sinh[0]["age"] = 21
+print("Thông tin học sinh sau khi sửa:", ds_hoc_sinh[0])
+
+# Xóa trường 'class' của học sinh thứ 1
+ds_hoc_sinh[0].pop("class")
+print("Sau khi xóa 'class':", ds_hoc_sinh[0])
+
+# Xóa trường 'name' của học sinh thứ 1
+ds_hoc_sinh[0].pop("name")
+print("Sau khi xóa 'name':", ds_hoc_sinh[0])
